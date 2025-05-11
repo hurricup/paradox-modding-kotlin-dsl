@@ -1,0 +1,37 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+out/
+.idea/shelf
+.idea/dataSources
+.idea/*.xml
+.idea/httpRequests
+.idea/modules/*
+!.idea/vcs.xml
+
+# Output
+/domain/*/
+/domain/*site*
+/domain/*.local.properties
+
+# Other
+.DS_Store
+.kotlin
+
+# Sensitive configs
+connection_creds.properties
+local.properties
+
+http-client.env.json
+http-client.private.env.json
+
+!*.gitkeep
+
+# Docker artifacts
+docker
+
+src/frontend/node_modules
+src/frontend/dist
+src/frontend/.vite
